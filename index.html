@@ -2,25 +2,26 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="./assets/img/icon.png">
-    <link rel="stylesheet" href="style.css">
-    <title>Mon Autobiographie</title>
+    <link rel="stylesheet" href="style_form.css">
+    <title>Connectez Vous</title>
+    <link rel="icon" href="../assets/img/cle.png">
 </head>
 <body>
     <header>
-        <h1 class="title_page">
-            Mon AutoBiographie
-        </h1>
-    <header>
+        <h1>Connectez-vous à mon histoire.</h1>
+    </header>
     <main>
-        <section>
-            <div class="head_container">
-                <ul>
-                    <li><a href="">Ma naissance</a></li>
-                    <li><a href="">Ma vie jeune</a></li>
-                    <li><a href="">Ma future vie agée</a></li>
-                    <li><a href="">Ma mort lointaine</a></li>
-                </ul>
+        <section class="section">
+            <div class="formdivcontainer">
+                <form class="form" id="login_form">
+                    <label for="username">Entrez le nom d'utilisateur : </label>
+                    <input type="text" id="username" name="username" class="username">
+                    <label for="pass">Entrez le mot de passe : </label>
+                    <p class="valueerror" id="errorMessage" style="display: none;">Mot de passe ou nom d'utilisateur incorrect.</p>
+                    <input type="password" id="pass" name="password" class="pass">
+                    <input type="submit" class="valider" value="Entrer...">
+                </form>
+                <script src="main.js"></script>
             </div>
         </section>
     </main>
