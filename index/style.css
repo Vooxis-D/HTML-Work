@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'qks';
+    src: url(../assets/font/Quicksand-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: 'qks', Verdana;
+}
+
+h1 {
+    text-align: center;
+}
+
+.classes {
+    display: flex;
+      
+}
